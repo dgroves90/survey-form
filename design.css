@@ -1,9 +1,35 @@
 body {
 	font-family: palatino;
+	background-color: #f4f4f4;
+}
+
+label {
+	margin:0.5rem;
+	background-color: #ddd;
+	padding: 10px;	
+}
+
+#header {
+	background-color: #444;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
 }
 
 #survey-form {
 display: flex;
 flex-direction: column;
 align-items: center;
+}
+
+.options {
+	background-color: white;
+	border-radius: 15px;
+	padding: 5px;
+}
+
+label button {
+	background-color: #f4f4f4;
+	margin:0;
+
 }
