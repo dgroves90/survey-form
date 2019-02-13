@@ -1,0 +1,9 @@
+body {
+	font-family: palatino;
+}
+
+#survey-form {
+display: flex;
+flex-direction: column;
+align-items: center;
+}

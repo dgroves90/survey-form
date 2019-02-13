@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Form</title>
+	<link rel="stylesheet" type="text/css" href="design.css">
+
+</head>
+<body>
+	<div>	
+		<h1 id="title">Survey Form</h1>
+		<p id="description"> This is a survey to find out about you and your skills in software development.</p>
+	</div>
+	<form id="survey-form" action="">
+		<label id="name-label">First Name<input id="name" type="text" placeholder="First Name" required></label>
+
+		<label id="surname-label">Surname<input type="text" placeholder="Surname" required></label>
+
+		<label id="email-label">E-Mail<input type="email" placeholder="E-Mail Address" required id="email"></label>
+
+		<label id="number-label">Age<input id="number" type="Number" placeholder="Age e.g. 28" min="16" max="65" required></label>
+
+		<label id="gender">Gender: 
+			<label id="male-female">Male<input type="radio" name="male-female" id="male" value="1"></label>
+			<label id="male-female">Female<input type="radio" name="male-female" id="female" value="2"></label>
+		</label>
+		<label id="skills"> Which of the following skills do you know?
+			<label id="HTML"><input type="checkbox" name="skills" value="1">HTML</label>
+			<label id="CSS"><input type="checkbox" name="skills" value="2">CSS</label>
+			<label id="JavaScript"><input type="checkbox" name="skills" value="3">JavaScript</label>
+		</label>
+
+		<label id="prefered-language">Prefered programming language:<select name="prefered-language" id="dropdown">
+			<option value="None">[Please Select]</option>
+			<option value="JavaScript">JavaScript</option>
+			<option value="PHP">PHP</option>
+			<option value="Python">Python</option>
+			<option value="Other">Other</option>
+		</select></label>
+
+		<textarea placeholder="Any further comments..."></textarea>
+
+		<button type="submit" id="submit">Submit</button>
+	</form>
+
+	<script src= "https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+
+</body>
+</html>
